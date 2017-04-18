@@ -1,0 +1,253 @@
+@font-face {
+    font-family: 'Helvetica Neue Regular';
+    src: url('helveticaneue-thin-webfont.eot');
+    src: url('helveticaneue-thin-webfont.eot?#iefix') format('embedded-opentype'),
+         url('helveticaneue-thin-webfont.woff2') format('woff2'),
+         url('helveticaneue-thin-webfont.woff') format('woff'),
+         url('helveticaneue-thin-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Helvetica Neue Regular', Arial;
+}
+
+.wrapper{
+  width: 100vw;
+  height: 100vh;
+  margin: 0 auto;
+}
+
+/* head menu*/
+.header{
+  display: flex;
+  height: 36px;
+  width: 100vw;
+  background-image: url(bar.png);
+  font-size: 14px;
+  font-family: tahoma, sans-serif;
+  text-align: center;
+  line-height: 36px;
+  margin: 0 auto;
+  justify-content: flex-end;
+}
+a{
+  text-decoration: none;
+}
+.blue{
+  color: #60b5ed;
+  padding-top: 10px;
+  padding-bottom: 10.5px;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+#conthr{
+  padding-left: 17px;
+  padding-right: 17px;
+}
+#ajudhr{
+  padding-left: 16px;
+  padding-right: 16px;
+}
+.white{
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10.5px;
+}
+.trans{
+  float: left;
+  color: transparent;
+}
+
+  .bluebuts{
+float: left;
+}
+.bluebuts:hover{
+  background-color: #4eabda;
+}
+.bluebuts:hover a{
+  color: white;
+}
+#alpha{
+  width: 458px;
+  height: 20px;
+}
+#MYB{
+  width: 100px;
+}
+#vender{
+  width: 70px;
+}
+#forum{
+  width: 60px;
+}
+#contato{
+  width: 85px;
+}
+#ajuda{
+  width: 70px;
+}
+#wall{
+  height: 34px;
+  width: 1px;
+  background-color: #56a2dc;
+  margin-top: 1px;
+}
+
+.whitebuts{
+  float: left;
+}
+.whitebuts:hover{
+background: linear-gradient(to top, #2e7ac4, #51b1dc);
+}
+  .flag{
+position: absolute;
+top: 5px;
+left: 20px;
+}
+#minhas{
+  width: 160px;
+  position: relative;
+
+}
+#ola{
+  width: 192px;
+  margin-right: 20px;
+}
+span{
+  text-decoration: underline;
+}
+#minhr{
+padding-left: 50px;
+padding-right: 12px;
+background-image: url(flag.png);
+background-repeat: no-repeat;
+background-position: 20px 6px;
+}
+#olahr{
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+.content{
+  margin: 0 auto;
+  background-image: url(backg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 94.5vh;
+  width: 100vw;
+  display: flex;
+}
+
+/* POPUP */
+
+.popup{
+  width: 560px;
+  height: 613px;
+  margin: auto;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.7);
+  text-align: center;
+}
+
+.pop-title{
+  border-bottom: 2px solid #b1b8a6;
+  height: 62px;
+  font-size: 24px;
+  padding-top: 0 auto;
+  line-height: 62px;
+}
+
+#f{
+  margin-top: 36px;
+  margin-bottom: 20px;
+  background-image: url(fb_b.png);
+  width: 276px;
+  height: 35px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+#fb{
+  margin-top: 36px;
+  margin-bottom: 20px;
+  background-image: linear-gradient(to top, #354465, #3d5593);
+  width: 226px;
+  height: 34px;
+  border-radius: 3px;
+  border-color: transparent;
+  border-left: none;
+  color: white;
+}
+
+fieldset{
+  border-bottom: none;
+  border-color: grey;
+  color: grey;
+  border-left: none;
+  border-right: none;
+  padding: 10px;
+  width: 258px;
+  margin-left: 142px;
+}
+
+legend{
+  padding: 10px;
+}
+
+.input{
+  display: block;
+  margin-left: 142px;
+  padding-left: 18px;
+  background-color: black;
+  color: #cccccc;
+  margin-bottom: 15px;
+  max-width: 258px;
+  min-width: 258px;
+  max-height: 35px;
+  min-height: 35px;
+  border: transparent;
+  border-bottom: 1px solid #484948;
+}
+.input:hover, .input:focus{
+  box-shadow: 0px 0px 4px 3px rgba(50, 177, 255, 0.5);
+  background-color: #1b5288;
+  border-color: transparent;
+}
+
+.sendbox{
+  margin: 0 auto;
+  margin-top: 21px;
+  margin-left: 142px;
+  text-align: left;
+  font-size: 14px;
+}
+
+#cr{
+  margin: 0 auto;
+  margin-top: 20px;
+  background: linear-gradient(to top, #2e7ac4, #50aedb);
+  color: white;
+  border-radius: 3px;
+  border-color: transparent;
+  width: 151px;
+  line-height: 32px;
+  font-size: 14px;
+  cursor: pointer;
+}
+.textgrey{
+  color: #bbbab7;
+  margin-top: 17px;
+  font-size: 11px;
+}
+p{
+  padding-top: 5px;
+}
+
+.grey{
+  color: #bbbab7;
+}
